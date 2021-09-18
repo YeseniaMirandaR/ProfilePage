@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Profile bar */
+
+.topBar{
+    background-color: rgb(87, 87, 87)
+}
+.nav{
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    width: 1200px;
+    margin:auto;
+    color: rgb(255, 255, 255);
+    background-color: #575757;
+    display: flex; /*it separates elements */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size:35px;
+    margin-left: 40px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 40%;
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;  /* turn the underline off */
+}
+
+.button {
+    height: 30px;
+    width: 93px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(16, 147, 156); 
+    border: 2px solid black;
+    box-shadow: 4px 3px rgb(10, 9, 9);
+    cursor: pointer;
+}
+
+/* Left side */
+
+.container{
+    width: 1240px;
+    margin-left: 320px;
+}
+
+.row {
+    display: flex;
+}
+
+#top{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(5, 165, 170);
+}
+.card {
+    height: 550px;
+    width: 2000px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(184, 182, 182);
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:500px;
+    margin-top: 50px;
+    padding:200 px;
+    }
+    
+.cardTitle{
+    background-color:#05a5aa;
+    font-size: 12px;
+    padding: 20px;
+    margin:
+    display: flex;
+    align-items: center;
+}
+
+.userContent{
+    width: 100%;
+    border: 2px solid rgb(160, 159, 159);
+    margin: 25px 35px 25px 15px;
+    padding: 0px 0px 25px 0px;
+}
+.janeDoe{
+    margin-top: 25px;
+}
+.photo1{
+    height: 120px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    box-shadow: 1px 2px 5px 3px grey;
+    margin-left: 10px;
+    margin-top:
+}
+
+
+.janeDoe{
+    margin: 30px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.map{
+    height: 30px;
+    margin-left:10px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.settings{
+    height: 25px;
+}
+
+.editprofile{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.imagesLink{
+    margin-left: 10px;
+    color: rgb(30, 43, 114);
+}
+
+.codingD{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+.descript{
+    margin-left: 18px;
+    margin-top: 30px; 
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.leftSide{
+    flex: 2;
+    margin: 30px;
+    padding:25px;
+}
+
+/* Right Side */
+
+.rightSide{
+    flex: 1;
+    margin: 30px;
+    padding: 25px;
+}
+
+.requestImage {
+    border-radius: 78%;
+    height: 70px;
+    margin-left:  25px 0px 25px 15px;
+}
+
+.requestAccept {
+    border-radius: 78%;
+    height: 40px;
+    margin:  25px 0px 25px 10px;
+}
+
+.requestContent {
+width: 100%;
+border: 2px solid rgb(160, 159, 159);
+margin: 25px 0px 25px 15px;
+padding: 0px 0px 25px 0px;;
+}
+
+.requestDesc{
+    display: flex;
+    justify-content: space-between;
+    margin:  20px 25px 25px 25px;
+    padding:  0px 10px 0px 10px;
+}
+
+.requestTitle {
+    background-color:#575757;
+    font-size: 12px;
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.numbersButton{
+    background-color: rgb(151, 151, 151);
+    height: 15px;
+    padding: 5px 7px 5px 7px;
+    border-radius: 60px 60px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.viewMore{
+    border-top: 1px solid grey;
+    padding: 20px 25px 0px 25px;
+    margin-top: 20px;
+}
